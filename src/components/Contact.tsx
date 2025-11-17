@@ -6,21 +6,9 @@ import { useState } from 'react';
 
 const contactMethods = [
   {
-    icon: 'Mail',
-    title: 'Email',
-    value: 'hello@widdoy.dev',
-    link: 'mailto:hello@widdoy.dev'
-  },
-  {
-    icon: 'Phone',
-    title: 'Телефон',
-    value: '+7 (999) 123-45-67',
-    link: 'tel:+79991234567'
-  },
-  {
-    icon: 'MapPin',
-    title: 'Локация',
-    value: 'Москва, Россия',
+    icon: 'MessageSquare',
+    title: 'Discord',
+    value: 'black_widdoy',
     link: '#'
   }
 ];
