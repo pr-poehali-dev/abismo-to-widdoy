@@ -30,14 +30,8 @@ const Hero = () => {
 
         <div className="flex items-center justify-center gap-4 flex-wrap">
           <button
-            onClick={() => scrollToSection('projects')}
-            className="px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-all hover:scale-105"
-          >
-            Смотреть проекты
-          </button>
-          <button
             onClick={() => scrollToSection('contact')}
-            className="px-6 py-3 border border-border text-foreground rounded-lg hover:bg-secondary transition-all"
+            className="px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-all hover:scale-105"
           >
             Связаться
           </button>
