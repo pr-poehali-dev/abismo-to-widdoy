@@ -66,28 +66,12 @@ const Contact = () => {
 
             <div className="flex items-center gap-4">
               <a
-                href="https://github.com"
+                href="https://t.me/widdoy_dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-card border border-border flex items-center justify-center hover:border-accent/50 hover:text-accent transition-all"
               >
-                <Icon name="Github" size={20} />
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg bg-card border border-border flex items-center justify-center hover:border-accent/50 hover:text-accent transition-all"
-              >
-                <Icon name="Linkedin" size={20} />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg bg-card border border-border flex items-center justify-center hover:border-accent/50 hover:text-accent transition-all"
-              >
-                <Icon name="Twitter" size={20} />
+                <Icon name="Send" size={20} />
               </a>
             </div>
           </div>
