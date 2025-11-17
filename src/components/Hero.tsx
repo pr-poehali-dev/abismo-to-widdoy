@@ -37,6 +37,14 @@ const Hero = () => {
           >
             Заказать бота
           </a>
+          <a
+            href="https://t.me/qqblackww"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/90 transition-all hover:scale-105"
+          >
+            Заказать сайт
+          </a>
           <button
             onClick={() => scrollToSection('contact')}
             className="px-6 py-3 border border-border text-foreground rounded-lg hover:bg-secondary transition-all"
