@@ -37,24 +37,6 @@ const Header = () => {
 
           <div className="hidden md:flex items-center gap-8">
             <button
-              onClick={() => scrollToSection('projects')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Проекты
-            </button>
-            <button
-              onClick={() => scrollToSection('skills')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Навыки
-            </button>
-            <button
-              onClick={() => scrollToSection('blog')}
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Блог
-            </button>
-            <button
               onClick={() => scrollToSection('contact')}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
